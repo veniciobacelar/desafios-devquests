@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    background-color: rgb(252, 66, 66);
+    border: 2px solid;
+    margin: 10px auto;
+    width: 350px;
+}
+
+.titulo{
+    padding: 5px;
+    text-align: center;
+}
+
+.imagem{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+p{
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-align: center;
+}
+
+
+
+
