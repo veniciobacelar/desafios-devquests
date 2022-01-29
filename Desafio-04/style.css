@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.container{
+    background-color: goldenrod;
+    border: 2px solid black;
+    width: 271px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+}
+
+.tabela{
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.titulo.moda{
+    background-color: #BB86FC;
+}
+
+.titulo.casa{
+    background-color: #00C4B4;
+}
+
+.titulo, th, td{
+    border: 1px solid black;
+    background-color: #424250;
+    color: white;
+    padding: 10px;
+}
+
+
+
