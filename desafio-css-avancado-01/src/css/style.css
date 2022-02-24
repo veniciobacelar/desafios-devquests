@@ -1,0 +1,56 @@
+/*CABEÇALHO*/
+.cabecalho{
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    padding: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+}
+
+.imagem{
+    width: 100px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo:hover{
+    color: #5BC241;
+    transition: ease-in-out 0.3s;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.menu li:hover{
+    background-color: #5BC241;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.cadastro{
+    background-color: #5BC241;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
+}
+
+a{
+    color: black;
+
+}
+/*CABEÇALHO*/
+
