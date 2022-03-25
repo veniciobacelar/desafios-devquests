@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo-pagina{
+    background-color: aquamarine;
+    display: grid;
+    gap: 10px;
+    grid:
+    "video-principal propaganda"
+    "video-principal videos-laterais";
+    max-width: 700px;
+}
+
+.propaganda img, .video-principal img, .videos-laterais img{
+    width: 100%;
+}
+
+.video-principal{
+    grid-area: video-principal;
+    background-color: yellow;
+}
+
+.videos-laterais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blueviolet;
+    grid-area: videos-laterais;
+
+}
+
+.aside{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+
+.propaganda{
+    grid-area: propaganda;
+    height: 56px;
+    background-color: green;
+    
+}

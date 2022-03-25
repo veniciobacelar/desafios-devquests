@@ -1,0 +1,93 @@
+
+@font-face{
+    font-family: 'artes';
+    src: url(/fonte/ArterioNonCommercial.otf);
+}
+
+:root{
+    --font-titulo: 'artes';
+    --font-padrao: Arial, Helvetica, sans-serif;;
+}
+
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.562);
+}
+
+h1{
+    color: black;
+    font-family: var(--font-titulo);
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: var(--font-titulo);
+}
+
+
+p{
+    font-size: 18px;
+    font-family: var(--font-padrao);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1440px;
+    max-width: 100%;
+}
+.painel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.painel .image{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+@media(max-width: 376px){
+    .painel .image{
+        width: 300px;
+    }
+}
+
+.image-rome{
+    background: url(/lista-imagens/7.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.image-StarryNight1{
+    background: url(/lista-imagens/8.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.image-SandAndSea{
+    background: url(/lista-imagens/9.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.image-StarryNight2{
+    background: url(/lista-imagens/10.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+ 

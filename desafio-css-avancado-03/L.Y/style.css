@@ -1,0 +1,66 @@
+.conteudo-pagina {
+    max-width: 656px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-areas:
+        'video-principal propaganda'
+        'video-principal videos-lateral';
+    gap: 16px;
+    padding: 10px;  
+}
+
+.video-principal { 
+    grid-area: video-principal;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.propaganda img {
+    width: 100%;
+    height: 100%;
+}
+
+.videos-lateral {
+    grid-area: videos-lateral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.videos-lateral .aside {
+    display: flex;
+    align-items: center;
+    
+}
+
+.videos-lateral .aside .conteudo-aside {
+    margin-left: 10px;
+}
+
+.videos-lateral .aside .conteudo-aside h2 {
+    margin-bottom: 5px;
+}
+
+.videos-lateral .aside .conteudo-aside p {
+    margin: 5px 0;
+}
+
+.titulo-video {
+   padding-right: 30px;
+}
+
+.titulo-video h2 {
+    margin:  0 0 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.titulo-video p {
+    margin: 10px 0;
+    
+}
